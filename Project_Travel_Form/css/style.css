@@ -1,16 +1,16 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+} */
 
-
-.container{
-    max-width: 80%;
-    /* background-color: rgb(198, 152, 241); */
+ 
+/* .container{
+    width: 70%;
     padding: 34px;
     margin: auto;
-}
+}  */
+
 
 .container h1,p{
     text-align: center;
@@ -24,14 +24,17 @@
     font-size: 17px;
 }
 
-input, textarea{
+/* input, textarea , select{
     width: 80%;
     margin: 11px;
     padding: 7px;
     font-size: 15px;
-    border: 2px solid black;
+    border: 1px solid rgb(13,110,253);
     border-radius: 6px;
     outline: none;
+} 
+input:hover ,textarea:hover{
+    border:2px solid rgb(13,110,253);
 }
 form{
     display: flex;
@@ -40,9 +43,9 @@ form{
     justify-content: center;
 }
 
-.btn{
+.button {
     color: white;
-    background-color: purple;
+    background-color: rgb(47, 123, 229);
     padding: 15px 10px;
     font-size: 15px;
     border: 2px solid white;
@@ -52,22 +55,21 @@ form{
 
 .bgimg{
     width: 100%;
-    /* 100% takes full width of window */
+    /* 100% takes full width of window * /
     height: 110vh;
-    /* 100vh takes full height of window*/
+    /* 100vh takes full height of window* /
     position: absolute;
     z-index: -1;
-    /* it will take position under other tags. */
+    /* it will take position under other tags. * /
     opacity: .6;
     
-}
+}*/
 .submitMsg{
     color: green;
 }
 
 body{
-    background-image: url(../img/bgimg.jpg);
-    /* go one folder up css > img> image. */
-    background-repeat: repeat;
+    background-image: url(../img/coxsbazar.jpg);
     background-position: center center;
+    background-size: cover;
 }
