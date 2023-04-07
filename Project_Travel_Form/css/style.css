@@ -52,7 +52,9 @@ form{
 
 .bgimg{
     width: 100%;
-    height: 100%;
+    /* 100% takes full width of window */
+    height: 110vh;
+    /* 100vh takes full height of window*/
     position: absolute;
     z-index: -1;
     /* it will take position under other tags. */
@@ -61,4 +63,11 @@ form{
 }
 .submitMsg{
     color: green;
+}
+
+body{
+    background-image: url(../img/bgimg.jpg);
+    /* go one folder up css > img> image. */
+    background-repeat: repeat;
+    background-position: center center;
 }

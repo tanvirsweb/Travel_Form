@@ -62,7 +62,7 @@
     </div>
 
 <!-- --------------------------------------------------------------------------- -->
-    <img  class="bgimg" src="img/bgimg.jpg"  alt="error loading image...">
+    <!-- <img  class="bgimg" src="img/bgimg.jpg"  alt="error loading image..."> -->
     <div class="container">
         <h1>Welcome to CoxsBazar Trip form</h1>
         <p>Enter your details and submit this form to confirm your participation in this trip. </p>
